@@ -20,10 +20,9 @@ export default function Projects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {projects.map((project,index) => (
             <Link
-              to={"/detail"}
-              state={{ data: project }}
+              to={`/detail/${index+1}`}
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
             >

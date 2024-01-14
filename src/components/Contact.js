@@ -15,10 +15,10 @@ export default function Contact() {
           </h2>
           <div className="flex justify-between mt-5">
             <a href="https://www.linkedin.com/in/kyaw-thet-624845177?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="p-5 bg-gray-800">
-              <FiGithub className="text-green-400" />
+              <FiLinkedin className="text-green-400" />
             </a>
             <a href="https://github.com/nawoption" className="p-5 bg-gray-800">
-              <FiLinkedin className="text-green-400"/>
+              <FiGithub className="text-green-400"/>
             </a>
             <a href="mailto:kyawthetkhaing.ktk.ktk@gmail.com" className="p-5 bg-gray-800">
               <FiMail className="text-green-400"/>

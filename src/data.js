@@ -21,6 +21,14 @@ import twod5 from "./images/twod/twod5.jpg";
 import twod6 from "./images/twod/twod6.jpg";
 import coverTwod from "./images/twod/cover.jpg";
 
+import cu1 from "./images/cu-vote/cu1.jpg";
+import cu2 from "./images/cu-vote/cu2.jpg";
+import cu3 from "./images/cu-vote/cu3.jpg";
+import cu4 from "./images/cu-vote/cu4.jpg";
+import cu5 from "./images/cu-vote/cu5.jpg";
+import cu6 from "./images/cu-vote/cu6.jpg";
+import coverCu from "./images/cu-vote/cover.jpg";
+
 export const projects = [
   {
     title: "Shop Rewards Points System",
@@ -59,6 +67,20 @@ export const projects = [
     category: "android",
     image: coverTwod,
     imageList: [twod1, twod2, twod3, twod4, twod5, twod6],
+  },
+  {
+    title: "CU Voting",
+    subtitle: "React Native Android",
+    objective:
+      "Design the application to handle an increasing number of voters and candidates, ensuring scalability as the university community grows.",
+    technology:
+      "Frontend: React Native, Version Control: Git, Styling with StyleSheet for a clean and responsive user interface.",
+    description:
+      "The Computer University Voting Application is a digital platform designed to streamline and modernize the election process within our university community. The application provides an efficient and secure way for students to cast their votes for candidates vying for roles such as king and queen, mister and miss, prince and princess, fostering a democratic and engaging environment on campus.",
+    githubLink: "https://github.com/nawoption/cu-vote",
+    category: "android",
+    image: coverCu,
+    imageList: [cu1, cu2, cu3, cu4, cu5, cu6],
   },
 ];
 
